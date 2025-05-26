@@ -29,7 +29,7 @@ db.prepare(`
 
 // الصفحة الرئيسية
 app.get("/", (req, res) => {
-  res.sendFile(path.join(clientPath, "scanner.html"));
+  res.sendFile(path.join(clientPath, "login.html"));
 });
 
 // فحص الرابط باستخدام Google Safe Browsing API
